@@ -1,0 +1,18 @@
+CRITICAL - 2022-11-06 12:25:37 --> Undefined property: stdClass::$business_image
+#0 /home/u561815069/domains/strassenads.com/public_html/app/Views/list_business.php(212): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u561815069/domains/strassenads.com/public_html/system/View/View.php(210): include('/home/u56181506...')
+#2 /home/u561815069/domains/strassenads.com/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/u561815069/domains/strassenads.com/public_html/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/u561815069/domains/strassenads.com/public_html/app/Controllers/Home.php(265): view()
+#5 /home/u561815069/domains/strassenads.com/public_html/system/CodeIgniter.php(825): App\Controllers\Home->category()
+#6 /home/u561815069/domains/strassenads.com/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /home/u561815069/domains/strassenads.com/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u561815069/domains/strassenads.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-06 19:29:04 --> Undefined array key 0
+#0 /home/u561815069/domains/strassenads.com/public_html/app/Controllers/Home.php(223): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u561815069/domains/strassenads.com/public_html/system/CodeIgniter.php(825): App\Controllers\Home->category()
+#2 /home/u561815069/domains/strassenads.com/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /home/u561815069/domains/strassenads.com/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/u561815069/domains/strassenads.com/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

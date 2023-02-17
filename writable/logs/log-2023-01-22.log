@@ -1,0 +1,176 @@
+CRITICAL - 2023-01-22 06:29:42 --> Undefined variable $data_context_admin
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/footer', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(313): view('frontend/footer')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->getBusiness('asadero_las_veg...')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 06:29:50 --> Undefined variable $data_context_admin
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/footer', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(75): view('frontend/footer')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 06:29:55 --> Undefined variable $data_context_admin
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/footer', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(75): view('frontend/footer')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 06:30:16 --> Undefined variable $data_context_admin
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/footer', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(75): view('frontend/footer')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 06:32:52 --> Undefined variable $data_context
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\backend\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('backend/footer', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\UserController.php(18): view('backend/footer', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 08:23:22 --> Undefined array key 0
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->getBusiness('index')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-22 08:23:42 --> Undefined array key 0
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->getBusiness('morestate')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-22 08:24:36 --> Undefined array key 0
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->getBusiness('list')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-22 08:26:10 --> Undefined variable $data
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-22 08:26:26 --> Undefined variable $categories
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\header.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/header', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(15): view('frontend/header')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 08:26:31 --> Undefined variable $categories
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\header.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/header', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(15): view('frontend/header')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 08:26:54 --> Class "App\Controllers\RegionModel" not found
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-22 08:27:32 --> Undefined variable $categories
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\header.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/header', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(78): view('frontend/header')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-22 08:40:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-22 08:40:22 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-22 08:41:40 --> Undefined variable $categories
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\frontend\header.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/header', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(99): view('frontend/header', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-22 08:42:05 --> Not unique table/alias: 'business'
+CRITICAL - 2023-01-22 08:42:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-22 08:53:00 --> Unknown column 'category.id' in 'field list'
+CRITICAL - 2023-01-22 08:53:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-22 08:53:58 --> Unknown column 'category.id' in 'field list'
+CRITICAL - 2023-01-22 08:53:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-22 08:55:33 --> Unknown column 'category.id' in 'field list'
+CRITICAL - 2023-01-22 08:55:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->list()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

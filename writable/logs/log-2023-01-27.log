@@ -1,0 +1,9 @@
+CRITICAL - 2023-01-27 18:12:28 --> preg_match(): Compilation failed: missing closing parenthesis at offset 11
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+$#u', 'aca', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('aca')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/aca')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

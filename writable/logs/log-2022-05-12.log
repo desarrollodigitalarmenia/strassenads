@@ -1,0 +1,101 @@
+CRITICAL - 2022-05-12 15:45:15 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-12 17:08:01 --> unlink(C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\writable\../business/8/8.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(169): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:11:40 --> unlink(C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\writable\../business/8/8.png): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 173, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(173): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:12:42 --> unlink(C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\writable\../business/8/8.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(174): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:18:24 --> Could not move file phpD5B.tmp to C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\writable\../business/8/ ()
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpD5B.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(180): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '8.png')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:18:52 --> unlink(C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\writable\../business/8/8.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(174): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:22:25 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(171): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:24:13 --> mkdir(): File exists
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): File e...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(171): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-12 17:28:35 --> syntax error, unexpected '='
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-12 17:57:39 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(122): view('dashboard', Array)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 18:05:48 --> Call to undefined function App\Controllers\ereg_replace()
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->createBusiness()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-12 18:08:24 --> Use of undefined constant UTF8_ENABLED - assumed 'UTF8_ENABLED' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 282, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->createBusiness()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-12 18:11:15 --> Column 'name_short' cannot be null
+ERROR - 2022-05-12 18:12:15 --> Column 'name_short' cannot be null
+ERROR - 2022-05-12 18:13:23 --> Column 'name_short' cannot be null

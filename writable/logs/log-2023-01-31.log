@@ -1,0 +1,184 @@
+ERROR - 2023-01-31 05:31:53 --> Unknown column 'T2.city' in 'on clause'
+CRITICAL - 2023-01-31 05:31:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-31 05:42:39 --> Undefined variable $cityListByRegion
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(254): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegionCity('quindio', 'armenia')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 05:43:19 --> Undefined variable $cityListByRegion
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(257): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegionCity('quindio', 'armenia')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 05:46:52 --> Undefined array key 0
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 223)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('armenia')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-31 05:48:40 --> Undefined variable $regionId
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(201): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 08:45:25 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'BusinessControl...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('BusinessControl...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/BusinessContro...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 08:46:00 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'BusinessControl...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('BusinessControl...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/BusinessContro...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 08:46:34 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'BusinessControl...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('BusinessControl...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/BusinessContro...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 08:46:52 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'BusinessControl...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('BusinessControl...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/BusinessContro...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 08:48:31 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'BusinessControl...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('BusinessControl...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/BusinessContro...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 08:59:32 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 08:59:37 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 09:03:10 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 09:04:40 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 09:05:57 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-31 09:06:28 --> Undefined variable $region
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 374)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->search()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-31 09:07:16 --> Undefined variable $q
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 372)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->search()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-31 09:08:42 --> Undefined variable $q
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 359)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->search()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-31 09:09:24 --> Undefined variable $q
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 359)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->search()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-31 09:10:07 --> syntax error, unexpected variable "$q"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 09:10:55 --> syntax error, unexpected variable "$q"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-31 10:25:13 --> Undefined property: App\Controllers\Business::$output
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(352): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 352)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->search()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

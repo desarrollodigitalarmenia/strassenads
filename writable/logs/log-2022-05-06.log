@@ -1,0 +1,6 @@
+CRITICAL - 2022-05-06 06:09:59 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

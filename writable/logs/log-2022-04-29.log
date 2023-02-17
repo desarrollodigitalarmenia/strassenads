@@ -1,0 +1,88 @@
+CRITICAL - 2022-04-29 07:21:33 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Views\list_business.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(355): view('list_business', Array)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 07:22:06 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Views\search.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('search', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(355): view('search', Array)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-29 07:27:27 --> Call to undefined function App\Controllers\regionsAndCategories()
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 07:28:53 --> Call to undefined function App\Controllers\regionsAndCategories()
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 07:29:54 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php on line 356
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(356): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:30:32 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php on line 356
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(356): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:30:52 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php on line 356
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(356): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:32:05 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php on line 356
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(356): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:32:22 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php on line 356
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(356): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:33:33 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php on line 356
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(356): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 07:40:25 --> Call to a member function regionsAndCategories() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-29 07:41:01 --> Call to a member function regionsAndCategories() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->search()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

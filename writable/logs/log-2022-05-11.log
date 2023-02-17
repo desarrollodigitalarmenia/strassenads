@@ -1,0 +1,84 @@
+CRITICAL - 2022-05-11 09:11:00 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 09:11:56 --> Use of undefined constant user_password - assumed 'user_password' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:14:11 --> Use of undefined constant user_password - assumed 'user_password' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:14:29 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-11 09:19:36 --> Use of undefined constant user_password - assumed 'user_password' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:23:29 --> Use of undefined constant user_password - assumed 'user_password' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:27:50 --> Use of undefined constant user_password - assumed 'user_password' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:29:27 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-11 09:31:42 --> Use of undefined constant user_password - assumed 'user_password' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 09:35:41 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 09:36:31 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editUser()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 19:34:35 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->register()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 19:35:47 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->register()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-11 19:48:55 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->register()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

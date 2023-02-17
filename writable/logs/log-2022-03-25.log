@@ -1,0 +1,57 @@
+CRITICAL - 2022-03-25 17:09:07 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->singleUser('10')
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-25 17:14:59 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->singleUser('10')
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-25 17:16:10 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(32): view('edit_user')
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->singleUser('10')
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-25 17:16:20 --> Invalid file: edit_user.php
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_user.php')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('edit_user', Array, true)
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(32): view('edit_user', Array)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->singleUser('10')
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-25 17:31:13 --> Invalid file: user_view.php
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_view.php')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(11): view('user_view', Array)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-25 17:31:47 --> Invalid file: user_view.php
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_view.php')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(11): view('user_view', Array)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-25 17:39:57 --> Cannot redeclare App\Controllers\UserController::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

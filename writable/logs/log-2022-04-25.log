@@ -1,0 +1,95 @@
+ERROR - 2022-04-25 08:19:12 --> Unknown column 'shortname' in 'where clause'
+CRITICAL - 2022-04-25 08:19:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(140): CodeIgniter\BaseModel->find()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->category('restaurantes')
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-25 08:27:35 --> Unknown column 'state' in 'where clause'
+CRITICAL - 2022-04-25 08:27:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->region('quindio')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 08:28:07 --> Unknown column 'state' in 'where clause'
+CRITICAL - 2022-04-25 08:28:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->region('quindio')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 08:28:43 --> Unknown column 'state' in 'where clause'
+CRITICAL - 2022-04-25 08:28:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->region('quindio')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 12:55:40 --> Unknown column 'state' in 'where clause'
+CRITICAL - 2022-04-25 12:55:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->region('quindio')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 12:56:46 --> Unknown column 'state' in 'where clause'
+CRITICAL - 2022-04-25 12:56:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->region('quindio')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 18:27:34 --> Unknown column 'shortname' in 'where clause'
+CRITICAL - 2022-04-25 18:27:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(172): CodeIgniter\BaseModel->find()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->category('restaurantes')
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-25 18:27:40 --> Unknown column 'state' in 'where clause'
+CRITICAL - 2022-04-25 18:27:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->region('quindio')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 18:43:36 --> Unknown column 'shortname' in 'where clause'
+CRITICAL - 2022-04-25 18:43:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(176): CodeIgniter\BaseModel->find()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->category('restaurantes')
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-25 18:51:51 --> Unknown column 'business.state' in 'on clause'
+CRITICAL - 2022-04-25 18:51:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->city('quindio', 'tebaida')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 18:51:56 --> Unknown column 'business.state' in 'on clause'
+CRITICAL - 2022-04-25 18:51:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->city('quindio', 'filandia')
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-25 19:07:51 --> Unknown column 'shortname' in 'where clause'
+CRITICAL - 2022-04-25 19:07:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(174): CodeIgniter\BaseModel->find()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->category('droguerias')
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 19:29:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

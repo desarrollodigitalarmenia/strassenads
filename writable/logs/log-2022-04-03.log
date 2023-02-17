@@ -1,0 +1,42 @@
+CRITICAL - 2022-04-03 08:23:57 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(14): view('admin/dashboard')
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 08:25:23 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 08:25:35 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 08:26:22 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(12): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-03 08:30:09 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\app\Controllers\UserController.php(12): view('admin/dashboard', Array)
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

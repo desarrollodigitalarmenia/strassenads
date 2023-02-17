@@ -1,0 +1,36 @@
+CRITICAL - 2022-03-29 07:35:58 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-29 07:45:41 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-29 07:45:43 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-29 07:56:23 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->dashboard()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-29 15:35:38 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->store()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-29 15:36:12 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(825): App\Controllers\UserController->delete('18')
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,82 @@
+CRITICAL - 2022-02-23 16:19:15 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/product')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/product')
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 16:19:31 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/product')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/product')
+#3 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 16:20:08 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 16:20:39 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 16:24:04 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 16:24:18 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 16:26:02 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 16:26:13 --> Class 'App\Controllers\Controller' not found
+#0 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Projects2022\PHP\Projects\CodeigniterBase\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

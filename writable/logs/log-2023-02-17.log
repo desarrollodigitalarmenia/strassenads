@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-17 17:02:31 --> Undefined variable $data_context_admin
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\backend\footer.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('backend/footer', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\UserController.php(40): view('backend/footer')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\UserController->create()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

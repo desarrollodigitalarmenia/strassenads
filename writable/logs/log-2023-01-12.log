@@ -1,0 +1,101 @@
+CRITICAL - 2023-01-12 12:17:56 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-01-12 12:18:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2023-01-12 05:20:05 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-01-12 05:20:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-12 05:22:38 --> Undefined property: stdClass::$business_image
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\list_business.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 212)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('cerrajerias')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-12 05:29:56 --> Undefined property: stdClass::$business_image
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\list_business.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 212)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('turismo')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-12 05:31:59 --> Undefined property: stdClass::$business
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\list_business.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 212)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('turismo')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-12 05:32:20 --> Undefined property: stdClass::$business_image
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\list_business.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 216)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('turismo')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-12 05:32:36 --> Undefined constant "end"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('turismo')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 05:50:58 --> Undefined property: stdClass::$business_image
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\list_business.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('cerrajerias')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-12 05:51:47 --> Undefined property: stdClass::$business_image
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\list_business.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('list_business', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(265): view('list_business', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->category('cerrajerias')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

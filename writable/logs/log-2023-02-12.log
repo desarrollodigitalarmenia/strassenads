@@ -1,0 +1,114 @@
+CRITICAL - 2023-02-12 10:05:29 --> Cannot redeclare App\Controllers\Business::getByRegionCity()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-12 10:23:37 --> Undefined array key 0
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Home.php(403): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 403)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Home->searchMain()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 10:24:30 --> Call to undefined method App\Controllers\Business::getBusinessList()
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-12 10:47:03 --> syntax error, unexpected single-quoted string ";", expecting "," or ";"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 11:51:46 --> Undefined variable $categoryName
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 12:05:27 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-12 12:05:59 --> Unsupported operand types: string * int
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-12 16:11:07 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 16:11:53 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 16:11:56 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 16:12:27 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 16:16:12 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 16:16:52 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 16:16:56 --> Undefined constant "sessionCityName"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(126): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->searchEngine()
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

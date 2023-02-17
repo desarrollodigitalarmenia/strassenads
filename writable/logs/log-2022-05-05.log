@@ -1,0 +1,54 @@
+CRITICAL - 2022-05-05 18:13:22 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(68): view('dashboard', Array)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 18:13:23 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(68): view('dashboard', Array)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-05 18:44:35 --> Unknown column 'position' in 'order clause'
+CRITICAL - 2022-05-05 18:44:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(66): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-05 18:45:07 --> Unknown column 'position' in 'order clause'
+CRITICAL - 2022-05-05 18:45:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(69): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-05 19:25:17 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/header', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Home.php(73): view('frontend/header', Array)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 19:25:18 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('frontend/header', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(81): view('frontend/header', Array)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

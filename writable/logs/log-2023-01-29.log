@@ -1,0 +1,200 @@
+CRITICAL - 2023-01-29 06:38:18 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'assets/img/abou...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('assets/img/abou...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/assets/img/abo...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:38:18 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'assets/img/bann...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('assets/img/bann...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/assets/img/ban...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:38:22 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'assets/img/bann...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('assets/img/bann...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/assets/img/ban...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:38:24 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'assets/img/bann...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('assets/img/bann...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/assets/img/ban...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:38:26 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'assets/img/abou...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('assets/img/abou...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/assets/img/abo...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:38:26 --> preg_match(): Compilation failed: missing closing parenthesis at offset 33
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 384)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(384): preg_match('#^([a-z,_]+)/([...', 'assets/img/bann...', Array)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('assets/img/bann...')
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/assets/img/ban...')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:41:01 --> Undefined variable $data
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:42:00 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:44:01 --> Attempt to read property "name" on array
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:44:15 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:44:21 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 06:44:32 --> Attempt to read property "name" on array
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:57:15 --> Undefined array key "business.name_short"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:57:17 --> Undefined array key "business.name_short"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:57:30 --> Undefined array key "name_short"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 06:58:49 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(179): view('business_list', Array)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-29 10:01:22 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-29 10:07:19 --> Undefined property: stdClass::$email
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-29 10:23:11 --> Undefined variable $results
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-29 10:25:01 --> Undefined variable $categoryListByRegion
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Views\business_list.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101)
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(188): view('business_list', Array)
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-29 10:26:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\Common.php(1089): CodeIgniter\View\View->render('business_list', Array, true)
+#3 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\app\Controllers\Business.php(188): view('business_list', Array)
+#4 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(825): App\Controllers\Business->getByRegion('quindio')
+#5 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Business))
+#6 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DesarrolloDigital\strassenads.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

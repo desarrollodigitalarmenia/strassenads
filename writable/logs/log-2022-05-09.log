@@ -1,0 +1,64 @@
+CRITICAL - 2022-05-09 16:21:50 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(88): view('dashboard', Array)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->dashboard()
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#5 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 16:42:55 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php on line 97
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(97): view('frontend/header', NULL)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 17:38:35 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-09 17:38:52 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-09 17:41:46 --> Call to a member function update() on null
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-09 17:48:19 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php on line 121
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(121): CodeIgniter\Database\BaseBuilder->update('1', Array)
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-09 17:52:17 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 17:54:48 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 18:29:51 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 18:29:58 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 18:45:11 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 18:45:42 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 18:48:52 --> Unknown column 'state' in 'field list'
+ERROR - 2022-05-09 18:50:07 --> Unknown column 'state' in 'field list'
+CRITICAL - 2022-05-09 18:53:39 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, object given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php on line 135
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(135): CodeIgniter\Database\BaseBuilder->update(Object(App\Models\BusinessModel))
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-09 18:55:08 --> Unknown column 'pager' in 'field list'
+CRITICAL - 2022-05-09 18:56:35 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, object given, called in C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php on line 136
+#0 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\app\Controllers\Account.php(136): CodeIgniter\Database\BaseBuilder->update(Object(App\Models\BusinessModel))
+#1 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(825): App\Controllers\Account->editBusiness()
+#2 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Account))
+#3 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter\Milistadeempresas.com\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
